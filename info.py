@@ -51,7 +51,7 @@ PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-100'))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-100').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/tokyohdseries')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/riohdseries')
 
 auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-100")
 auth_channels = environ.get("AUTH_CHANNELS", "-100")
@@ -98,13 +98,13 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/UPROFESESR")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/UPROFESESR")
 
 SHORTENER_API = environ.get("SHORTENER_API", "2469484d258897da1dc9edaf4face6f466301f39")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "https://t.me/tokyohdseries")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "https://t.me/riohdseries")
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "yei5ei5eie6id6d")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "https://t.me/tokyohdseries")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "https://t.me/riohdseries")
 
 SHORTENER_API3 = environ.get("SHORTENER_API3", "5353e68e866ee")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "https://t.me/tokyohdseries")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "https://t.me/riohdseries")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
@@ -112,16 +112,16 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/tokyohdseries')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/riohdseries')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/UPROFESESR')
-UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/movieiuniverse')
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/riohdseries')
 
 # ============================
 # Captions / IMDB Template
 # ============================
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "https://t.me/tokyohdseries")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "https://t.me/movieiuniverse")
 BATCH_FILE_CAPTION = CUSTOM_FILE_CAPTION
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "https://t.me/tokyohdseries")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "https://t.me/movieiuniverse")
 
 # ============================
 # Bot Users Configuration
